@@ -4,7 +4,7 @@
 * Adapted from the awesome FitText jQuery plugin
 * brought to you by Paravel - http://paravelinc.com/
 */
-!function() {
+!function($) {
 
 	'use strict';
 
@@ -121,4 +121,4 @@
 			Gumby.initialize('fittext');
 		}
 	});
-}();
+}(jQuery);
